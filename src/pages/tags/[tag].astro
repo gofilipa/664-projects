@@ -34,11 +34,11 @@ const { posts } = Astro.props;
 <BaseLayout pageTitle={tag}>
   <section>
     <div class="py-24">
-      <h1
-        class="text-4xl text-balance font-medium font-display text-base-900 max-w-xl"
+      <p
+        
       >
-        All tags
-      </h1>
+        <a href='/'> &lt;&lt;&lt; Back to all projects</a>
+    </p>
       <div class="grid grid-cols-1 mt-4 gap-8 gap-y-24 sm:grid-cols-2">
         {
           posts.map((post) => (
