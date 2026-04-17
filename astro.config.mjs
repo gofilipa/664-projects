@@ -20,7 +20,6 @@ export default defineConfig({
     skipInline: false,
     drafts: true
   },
-  site: 'https://gofilipa.github.io/',
-  base: '/664-projects',
+  site: 'https://gofilipa.github.io/664-projects',
   integrations: [sitemap(), mdx()]
 });
