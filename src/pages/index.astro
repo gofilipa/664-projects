@@ -25,7 +25,7 @@ const sortedPosts = allPosts.sort(
           tags.map((tag) => (
             <a
               class=" hover:text-blue-500 text-xs font-medium text-base-600"
-              href={`664-projects/tags/${tag}`}
+              href={`/664-projects/tags/${tag}`}
             >
               {tag}
             </a>
@@ -36,7 +36,7 @@ const sortedPosts = allPosts.sort(
         {
           sortedPosts.map((post) => (
             <BlogEntries
-              url={`664-projects/posts/${post.id}`}
+              url={`/664-projects/posts/${post.id}`}
               alt={post.data.title}
               tags={post.data.tags}
               title={post.data.title}
