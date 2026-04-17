@@ -21,5 +21,6 @@ export default defineConfig({
     drafts: true
   },
   site: 'https://gofilipa.github.io/664-projects',
+  base: '/664-projects',
   integrations: [sitemap(), mdx()]
 });
