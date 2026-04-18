@@ -37,13 +37,13 @@ const { posts } = Astro.props;
       <p
         
       >
-        <a href='/'> &lt;&lt;&lt; Back to all projects</a>
+        <a href='/664-projects'> &lt;&lt;&lt; Back to all projects</a>
     </p>
       <div class="grid grid-cols-1 mt-4 gap-8 gap-y-24 sm:grid-cols-2">
         {
           posts.map((post) => (
             <BlogEntries
-              url={"/posts/" + post.id}
+              url={"/664-posts/posts/" + post.id}
               title={post.data.title}
               description={post.data.description}
               alt={post.data.title}
