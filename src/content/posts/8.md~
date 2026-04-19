@@ -1,0 +1,36 @@
+---
+pubDate: 2025-01-04
+author: Christine da Cruz
+title: Mapping Loss — Libraries and Lives in Palestine
+description: "Visualizing the destruction of Palestinian libraries alongside the lives lost on or around the same dates"
+image:
+  url: "/src/images/8.png"
+  alt: "#"
+tags: ["pandas", "requests", "BeautifulSoup4", "plotly"]
+---
+
+Libraries are not just repositories of books—they are symbols of memory, culture, and resistance. In Palestine, the destruction of libraries is not an isolated act of war; it represents a broader erasure of heritage. This project visualizes the destruction of Palestinian libraries alongside the lives lost on or around the same dates, creating a powerful data-driven narrative that links cultural annihilation with human tragedy.
+
+This project visualizes the destruction of Palestinian libraries
+alongside the lives lost on or around the same dates, creating a
+powerful data-driven narrative that links cultural annihilation with
+human tragedy.
+
+
+Workflow:
+
+Data Extraction via Python & Pandas using a script has been developed
+using Python and the Pandas library to scrape data from the Librarians
+with Palestine 2024 Gaza Report.
+
+This script has:
+- Identified library names, destruction dates, and news sources.
+- Normalized and exported the scraped information into a DataFrame and
+  then CSV for analysis.
+- Custom data set manual CSV entry of dates of loss of cultural
+  institutions, martyr names, and casualty figures.
+
+Tools used:
+- `pandas` python library
+- `requests` python library
+- `BeautifulSoup4` python library

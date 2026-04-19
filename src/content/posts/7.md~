@@ -1,0 +1,44 @@
+---
+pubDate: 2025-01-04
+author: Andrew Burke
+title: LA Times Crosswords
+description: "A scraped dataset containing answers and authors
+and dates from the LA Times Crossword from 2019 to 2024"
+image:
+  url: "/src/images/7.png"
+  alt: "#"
+tags: ["pandas", "requests", "BeautifulSoup4"]
+---
+
+The dataset is scraped off the [LAX
+crossword](https://laxcrossword.com/) blog that for over a decade has
+posted the answers to the LA Times Crossword Puzzles. The dataset I
+have created contains answers, authors, editors, and dates from nearly
+every LA Times Crossword from 2019 to 2024. I have then used this
+dataset to analyze thousands of crossword answers and identify the
+patterns and trends that occur in this daily puzzle.
+
+Admittedly, the original impetus for this project was because I kept
+seeing the same answers in my crossword puzzles and I wanted to have
+the data to back up and validate my indignation. Some have even gone
+so far as to describe it as a "spite project", a baseless claim that I
+refute. However, since work has begun, I think is interesting to see
+the different trends that occur in these crossword puzzles that are a
+daily part of peoples' lives, and see what aspects of popular culture,
+current events, history, etc. have made it into these puzzles.
+
+Workflow:
+- Scrape the crossword clues and relevant metadata from the past 5
+  years or so from the LAXCrossword blog using Python and
+  BeautifulSoup and export it into a CSV using Pandas
+- Clean the data into a usable dataset using a mixture of Pandas and
+  Open Refine
+- Analyze and visualize the dataset using tools like Pandas and the
+  Voyant text analysis tool to search for trends and patterns
+- Draw conclusions and prepare findings for presentation
+
+Tools used:
+- `flask` python web framework
+- `random` module in python
+
+[View on Github](https://github.com/mstanisi/novabot)
